@@ -1,0 +1,23 @@
+.bg {
+  // width: 1024px;
+  height: 768px;
+  background-image: url('../photo/ml0001.jpg');
+
+  div {
+    position: fixed;
+    left: 293px;
+    top: 74px;
+    width: 438px;
+    height: 620px;
+    border-radius: 15px;
+    background: #fff;
+    opacity: 0.15;
+  }
+
+  .logo {
+    width: 122px;
+    height: 94px;
+    margin: 41px 158px 0 158px;
+    background: #000;
+  }
+}
