@@ -3,21 +3,29 @@
   height: 768px;
   background-image: url('../photo/ml0001.jpg');
 
-  div {
+  .main-page {
     position: fixed;
     left: 293px;
     top: 74px;
     width: 438px;
     height: 620px;
+    text-align: center;
     border-radius: 15px;
     background: #fff;
-    opacity: 0.15;
+    // opacity: 0.15;
   }
 
   .logo {
     width: 122px;
     height: 94px;
     margin: 41px 158px 0 158px;
+    background: #000;
+  }
+
+  .title{
+    width: 194px;
+    height: 52px;
+    margin: 31px 0 0 126px;
     background: #000;
   }
 }
