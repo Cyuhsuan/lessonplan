@@ -1,9 +1,8 @@
 .bg {
-  // width: 1024px;
   height: 768px;
   background-image: url('../photo/ml0001.jpg');
 
-  .main-page {
+  .main-box {
     position: fixed;
     left: 293px;
     top: 74px;
@@ -11,21 +10,64 @@
     height: 620px;
     text-align: center;
     border-radius: 15px;
-    background: #fff;
-    // opacity: 0.15;
+    background: rgba(255, 255, 255, 0.15);
+
+    .logo {
+      width: 122px;
+      height: 94px;
+      margin: 41px 158px 0 158px;
+      outline: 1px solid pink;
+    }
+    
+    .title {
+      width: 194px;
+      height: 52px;
+      margin: 31px 0 0 126px;
+      outline: 1px solid pink;
+    }
+
+    p {
+      height: 11px;
+      margin: 13px 0 0;
+      font-size: 15px;
+      line-height: 27px;
+      letter-spacing: 1px;
+      color: #f9f9f9;
+    }
+
+    .input-box {
+      display: flex;
+      margin: 40px 25px;
+
+      p {
+        display: inline-block;
+        width: 62px;
+        height: 49px;
+        margin: 0 6px 0 0;
+        background: #f5933f;
+        border-radius: 10px 0 0 10px;
+      }
+
+      input {
+        // display: inline-block;
+        width: 320px;
+        height: 49px;
+        margin: 0;
+        border-radius: 0 10px 10px 0;
+      }
+    }
+
+    button {
+      width: 388px;
+      height: 53px;
+      font-size: 20px;
+      line-height: 17px;
+      letter-spacing: 2px;
+      border-radius: 10px;
+      color: #ffffff;
+      background: linear-gradient(0deg, #ee5b30 0, #f5933f 100%);
+    }
+
   }
 
-  .logo {
-    width: 122px;
-    height: 94px;
-    margin: 41px 158px 0 158px;
-    background: #000;
-  }
-
-  .title{
-    width: 194px;
-    height: 52px;
-    margin: 31px 0 0 126px;
-    background: #000;
-  }
 }
