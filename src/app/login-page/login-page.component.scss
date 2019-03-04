@@ -1,11 +1,15 @@
 .bg {
-  height: 768px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   background-image: url('../photo/ml0001.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 
   .main-box {
-    position: fixed;
-    left: 293px;
-    top: 74px;
+    margin: 74px auto;
     width: 438px;
     height: 620px;
     text-align: center;
@@ -18,7 +22,7 @@
       margin: 41px 158px 0 158px;
       outline: 1px solid pink;
     }
-    
+
     .title {
       width: 194px;
       height: 52px;
