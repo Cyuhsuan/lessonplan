@@ -97,7 +97,142 @@ main {
 
   }
 
-  .takeout{
-      
+  .takeout {
+    display: flex;
+    position: relative;
+    height: 89px;
+    box-shadow: 0 0 13px #b7b7b7;
+
+    p {
+      &:nth-child(1) {
+        width: 40px;
+        height: 89px;
+        padding: 25px 10px;
+        font-size: 20px;
+        line-height: 17px;
+        letter-spacing: 2px;
+        color: #ffffff;
+        background: #f24141;
+      }
+
+      &:nth-child(2) {
+        width: 47px;
+        height: 47px;
+        margin: auto 22px;
+        border: 1px solid #dcdcdc;
+        border-radius: 3px;
+      }
+
+      &:nth-child(3) {
+        width: 2px;
+        height: 50px;
+        margin: auto 0;
+        background: #f46565;
+      }
+
+      &:nth-last-child(1) {
+        position: absolute;
+        margin: 35px auto;
+        right: 17px;
+        color: #f24141;
+      }
+    }
+
+    ul {
+      display: flex;
+
+      // margin: 17px 0px;
+      li {
+        width: 72px;
+        height: 56px;
+        margin: 17px 10px;
+        line-height: 44px;
+        background: #f24141;
+        border-radius: 10px;
+        box-shadow: 2px 5px 10px #d3d3d3;
+
+        &:nth-child(5) {
+          background: #919191;
+        }
+
+        &:nth-child(7) {
+          background: #919191;
+        }
+
+        span {
+          display: block;
+          height: 44px;
+          padding: 0 6px;
+          margin: 12px 0 0 0;
+          border-radius: 0 0 10px 10px;
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  .status {
+    width: 925px;
+    height: calc(100vh - 39px - 89px);
+    margin: 0 auto;
+    // outline: 1px solid pink;
+
+    .status-row {
+      display: flex;
+      height: 98px;
+      margin: 26px 0 0 39px;
+      // outline: 1px solid pink;
+
+      .status-item {
+        position: relative;
+        width: 95px;
+        height: 98px;
+        padding: 13px 17px;
+        margin: 0 36px 0 0;
+        font-size: 18px;
+        color: #ffffff;
+        border: 1px solid #b5b5b5;
+        border-radius: 5px;
+        background: #f24141;
+        // outline: 1px solid pink;
+      }
+
+      .status-item-number {
+        position: absolute;
+        right: -7px;
+        bottom: -10px;
+        width: 70px;
+        height: 54px;
+        background: #f24141;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        box-shadow: 2px 5px 10px #d3d3d3;
+
+        p {
+          width: 56px;
+          height: 54px;
+          padding: 5px 0 0 0;
+          margin: 0 0 0 14px;
+          background: #fff;
+          border-radius: 0 10px 10px 0;
+
+          span{
+            display: block;
+            height: 27px;
+            padding: 0 8px 4px;
+            font-size: 16px;
+            color: #f24141;
+            border-bottom: 1px dashed black;
+          }
+
+          i{
+            width: 2px;
+            height: 2px;
+            background: #000;
+            outline: 1px solid pink;
+          }
+        }
+      }
+    }
   }
 }
